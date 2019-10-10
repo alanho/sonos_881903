@@ -1,0 +1,15 @@
+{
+  "name": "radiodaemon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/pubsub": "^1.1.0",
+    "atob": "^2.1.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "scripts": {
+    "start": "GOOGLE_APPLICATION_CREDENTIALS=.gcp_credential.json node url_generator.js"
+  }
+}
